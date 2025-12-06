@@ -37,6 +37,17 @@ The code exactly matches the methodology described in the manuscript.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
+loss-stability/
+│
+├── preprocessing.py              # Edge extraction pipeline (median + Sobel) and DataLoaders
+├── soft_fbeta_loss.py            # Soft-Fβ loss and weighted BCE wrapper
+├── bce_training.py               # Compact neural classifier and training loop
+├── threshold_evaluation.py       # Threshold search, probability diagnostics, ROC/PR curves
+│
+├── results_notebook.ipynb        # Reproducible experiments for the manuscript
+├── requirements.txt              # Environment dependencies
+└── README.md                     # Project description and submission notice
+
 
 
