@@ -4,7 +4,7 @@ This repository accompanies the manuscript:
 
 **"Evaluating Loss-Function Stability in Edge-Based Classification of Imbalanced Images"**
 
-submitted to Current Science.
+submitted to ***.
 
 The manuscript is **not yet published** and may undergo revisions during peer review.  
 A permanent Zenodo DOI will be added upon acceptance.
