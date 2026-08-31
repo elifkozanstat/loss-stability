@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "loss-stability: Reproducible analysis code for Soft-F2 and weighted BCE under class imbalance"
+type: software
+authors:
+  - family-names: Kozan
+    given-names: Elif
+repository-code: "https://github.com/elifkozanstat/loss-stability"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-31
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Kozan
+      given-names: Elif
+  title: "A Repeated-Run Evaluation of Soft-F2 and Weighted BCE in Edge-Based Image Classification under Class Imbalance"
+  year: 2026
