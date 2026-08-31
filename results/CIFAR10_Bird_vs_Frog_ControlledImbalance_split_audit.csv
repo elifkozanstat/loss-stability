@@ -1,0 +1,11 @@
+dataset,seed,train_total,train_positive,train_negative,val_total,val_positive,val_negative,test_total,test_positive,test_negative
+CIFAR10_Bird_vs_Frog_ControlledImbalance,42,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,73,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,101,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,137,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,211,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,307,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,401,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,509,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,613,2222,463,1759,556,116,440,1191,248,943
+CIFAR10_Bird_vs_Frog_ControlledImbalance,719,2222,463,1759,556,116,440,1191,248,943

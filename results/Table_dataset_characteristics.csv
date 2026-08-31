@@ -1,0 +1,3 @@
+dataset,positive_class,negative_class,n_positive,n_negative,n_total,imbalance_ratio_negative_to_positive,imbalance_type
+BeeSpotter,Apis,Bombus,827,3142,3969,3.799274486094317,natural
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Bird,Frog,827,3142,3969,3.799274486094317,controlled by deterministic subsampling of public CIFAR-10 training images

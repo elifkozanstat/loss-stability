@@ -1,0 +1,3 @@
+raw_genus,raw_count,true_class,study_label,study_role
+0,827,Apis,1,positive/minority
+1,3142,Bombus,0,negative/majority

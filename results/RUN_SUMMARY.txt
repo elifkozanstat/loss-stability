@@ -1,0 +1,22 @@
+FINAL REVISION ANALYSIS SUMMARY
+======================================================================
+Device: cuda
+Repeated stratified splits: 10
+Seeds: [42, 73, 101, 137, 211, 307, 401, 509, 613, 719]
+Architecture: 40000 -> 64 ReLU -> 1 logit
+Max epochs: 30; early stopping patience: 5
+Threshold selection: validation only; test never used for threshold choice
+
+DATASET: BeeSpotter
+Positive/minority=Apis n=827; Negative/majority=Bombus n=3142; ratio=3.799:1
+  Soft-F2: Macro-F1=0.1723±0.0000; AUC=0.5075±0.0051; Brier=0.7918±0.0000; ECE=0.7918±0.0000; prob-collapse=10/10; single-class=10/10
+  Weighted BCE: Macro-F1=0.4355±0.1080; AUC=0.5947±0.0117; Brier=0.2496±0.0171; ECE=0.2924±0.0294; prob-collapse=0/10; single-class=0/10
+
+DATASET: CIFAR10_Bird_vs_Frog_ControlledImbalance
+Positive/minority=Bird n=827; Negative/majority=Frog n=3142; ratio=3.799:1
+  Soft-F2: Macro-F1=0.1723±0.0000; AUC=0.4617±0.0330; Brier=0.7918±0.0000; ECE=0.7918±0.0000; prob-collapse=6/10; single-class=10/10
+  Weighted BCE: Macro-F1=0.7138±0.0184; AUC=0.8199±0.0164; Brier=0.1664±0.0296; ECE=0.1809±0.0610; prob-collapse=0/10; single-class=0/10
+
+INTERPRETATION RULE FOR THE REVISED PAPER:
+Do NOT claim Weighted BCE is calibrated merely because it has non-degenerate probabilities. Use the Brier/ECE results above. If calibration is not clearly better, replace 'calibrated' with 'non-degenerate probability outputs' or 'greater probability dispersion'.
+Do NOT claim general instability of F-measure losses. Frame conclusions as a controlled case study of this Soft-F2 formulation under severe imbalance and limited edge-based feature expressiveness.

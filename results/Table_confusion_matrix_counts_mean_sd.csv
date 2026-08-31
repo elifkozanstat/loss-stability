@@ -1,0 +1,17 @@
+dataset,loss,cell,interpretation,mean_count,sd_count,ci95_low,ci95_high,mean_plus_minus_sd
+BeeSpotter,Soft-F2,TN,true Bombus predicted Bombus,0.0,0.0,0.0,0.0,0.00 ± 0.00
+BeeSpotter,Soft-F2,FP,true Bombus predicted Apis,943.0,0.0,943.0,943.0,943.00 ± 0.00
+BeeSpotter,Soft-F2,FN,true Apis predicted Bombus,0.0,0.0,0.0,0.0,0.00 ± 0.00
+BeeSpotter,Soft-F2,TP,true Apis predicted Apis,248.0,0.0,248.0,248.0,248.00 ± 0.00
+BeeSpotter,Weighted BCE,TN,true Bombus predicted Bombus,393.8,209.5544479763354,243.89377845955414,543.7062215404459,393.80 ± 209.55
+BeeSpotter,Weighted BCE,FP,true Bombus predicted Apis,549.2,209.55444797633544,399.2937784595542,699.1062215404459,549.20 ± 209.55
+BeeSpotter,Weighted BCE,FN,true Apis predicted Bombus,79.0,45.200786620490476,46.66530513492678,111.33469486507322,79.00 ± 45.20
+BeeSpotter,Weighted BCE,TP,true Apis predicted Apis,169.0,45.200786620490476,136.66530513492677,201.33469486507323,169.00 ± 45.20
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Soft-F2,TN,true Frog predicted Frog,0.0,0.0,0.0,0.0,0.00 ± 0.00
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Soft-F2,FP,true Frog predicted Bird,943.0,0.0,943.0,943.0,943.00 ± 0.00
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Soft-F2,FN,true Bird predicted Frog,0.0,0.0,0.0,0.0,0.00 ± 0.00
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Soft-F2,TP,true Bird predicted Bird,248.0,0.0,248.0,248.0,248.00 ± 0.00
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Weighted BCE,TN,true Frog predicted Frog,785.4,39.85863910259746,756.88684725466,813.91315274534,785.40 ± 39.86
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Weighted BCE,FP,true Frog predicted Bird,157.6,39.85863910259746,129.08684725466,186.11315274534,157.60 ± 39.86
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Weighted BCE,FN,true Bird predicted Frog,88.8,16.348972104963934,77.10464989890332,100.49535010109668,88.80 ± 16.35
+CIFAR10_Bird_vs_Frog_ControlledImbalance,Weighted BCE,TP,true Bird predicted Bird,159.2,16.348972104963934,147.50464989890332,170.89535010109665,159.20 ± 16.35
